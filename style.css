@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18em;
+    height: 32em;
+    transform: translate(-50%,-50%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 1.5em 1.5em;
+}
+.nft-img{
+   width: 100%;
+   height: 18em;
+   border-radius: 8px;
+}
+.nft-img:hover{
+    background: hsl(178, 100%, 50%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+.nft-header{
+    color: white;
+    font-weight: 600;
+}
+.nft-header:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.nft-para{
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+.icons-para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    border-bottom: 1px solid #777;
+}
+.nft-para1{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+.nft-img1, .nft-img2{
+    margin-right: 5px;
+}
+.nft-para2{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer img{
+    width: 12%;
+    height: 15%;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.footer p{
+    margin-top: 23px;
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.footer p span{
+    color: #fff;
+}
+.footer p span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
